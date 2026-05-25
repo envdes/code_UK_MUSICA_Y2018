@@ -84,4 +84,4 @@ Two additional Python packages were used, as list below.
 
 ## Acknowledgments
 
-This work was supported by the Royal Society (grant numbers RG\R1\251567). This work used the ARCHER2 UK National Supercomputing Service (https://www.archer2.ac.uk). The authors would like to acknowledge the assistance given by Research IT, and the use of The HPC Pool funded by the Re search Lifecycle Programme at The University of Manchester. MVM acknowledges fundings from the United 14 Kingdom Research and Innovation (UKRI) Future Leaders Fellowship (grant numbers MR/T019867/1 and UKRI2059).****
+This work was supported by the Royal Society (grant numbers RG\R1\251567). This work used the ARCHER2 UK National Supercomputing Service (https://www.archer2.ac.uk). The authors would like to acknowledge the assistance given by Research IT, and the use of The HPC Pool funded by the Re search Lifecycle Programme at The University of Manchester. MVM acknowledges fundings from the United 14 Kingdom Research and Innovation (UKRI) Future Leaders Fellowship (grant numbers MR/T019867/1 and UKRI2059).
