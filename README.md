@@ -68,8 +68,7 @@ The scripts listed below were used to generate supplementary information, includ
 
 ### [4_observation_and_reanalysis](https://github.com/envdes/code_UK_MUSICA_Y2018/tree/main/4_observation_and_reanalysis)
 
-To evaluate the performance of MUSICAv0 over the new UK regional refinement domain, observations from the [Automatic Urban and Rural Network](https://uk-air.defra.gov.uk/
-networks/network-info?view=aurn) (AURN) and reanalysis data from the [UK Air Quality Reanalysis](https://air-quality-1-themetoffice.hub.arcgis.com/pages/explore-data) (UKAQR) are used.
+To evaluate the performance of MUSICAv0 over the new UK regional refinement domain, observations from the [Automatic Urban and Rural Network](https://uk-air.defra.gov.uk/networks/network-info?view=aurn) (AURN) and reanalysis data from the [UK Air Quality Reanalysis](https://air-quality-1-themetoffice.hub.arcgis.com/pages/explore-data) (UKAQR) are used.
 
 | Num  |                             Data                             |   Comments   |
 | :--: | :----------------------------------------------------------: | :----------: |
