@@ -11,11 +11,11 @@
 
 ## Introduction
 
-This repository is a supplementary to the manuscript "Development and Evaluation of the High-Resolution MUSICA UK Domain: A Case Study of Global and Regional Biomass Burning Impacts"
+This repository is a supplementary to the manuscript "Transboundary Impacts of Global and Regional Biomass Burning on UK Air Quality: Insights from a High-Resolution MUSICAv0 UK Simulation"
 
 The objectives of this project are:
 
-- Develop the UK-specific regionally refined grid (UKne30x16; ~7 km) within MUSICAv0;
+- Develop the first UK-specific regionally refined grid (UKne30x16; ~7 km) within MUSICAv0;
 - Evaluate the performance of the UKne30x16 configuration against UKAQR and AURN observations;
 - Quantify the impacts of biomass burning events on UK air quality using case studies;
 
@@ -39,11 +39,12 @@ The scripts listed below are used for processing simulation output and visualiza
 | Num  |                           Comments                           | Fig in paper |    Simulation labels     |                        Visualizations                        |
 | :--: | :----------------------------------------------------------: | :----------: | :----------------------: | :----------------------------------------------------------: |
 | 2.1  | Annual mean surface O3 and PM2.5 comparison between MUSICAv0 and UKAQR (Dec 2017–Nov 2018). |   Figure 2   |         ne30x16          | [UKAQR vs MUSICAv0 (O3, PM2.5)](https://github.com/envdes/code_UK_MUSICA_Y2018/tree/main/2_simulation_output_analysis/2.1_general_evaluation_with_UKAQR) |
-| 2.2  | MUSICAv0-AURN comparison during a late-spring pollution intrusion (22 May–14 June 2018). |   Figure 3   |      ne30x16, ne60       | [AURN vs MUSICAv0 (O3, PM2.5)](https://github.com/envdes/code_UK_MUSICA_Y2018/tree/main/2_simulation_output_analysis/2.2_intrusion_evaluation_with_AURN) |
-| 2.3  | PM2.5 and NSV simulations during peak pollution intrusion (27–30 May 2018). |   Figure 4   |      ne30x16, ne60       | [UKne30x16 vs ne60 (PM2.5, NSV)](https://github.com/envdes/code_UK_MUSICA_Y2018/tree/main/2_simulation_output_analysis/2.3_intrusion_evolution_NSV) |
-| 2.4  | Seasonal mean surface PM2.5 from UKne30×16 with and without biomass burning (Dec 2017–Nov 2018). |   Figure 5   | BB_ne30×16, NOBB_ne30×16 | [BB vs NoBB (PM2.5)](https://github.com/envdes/code_UK_MUSICA_Y2018/tree/main/2_simulation_output_analysis/2.4_BBvsNOBB_PM2.5_with_AURN) |
-| 2.5  | Seasonal mean surface O3 from UKne30×16 with and without biomass burning (Dec 2017–Nov 2018). |   Figure 6   | BB_ne30×16, NOBB_ne30×16 | [BB vs NoBB (O3)](https://github.com/envdes/code_UK_MUSICA_Y2018/tree/main/2_simulation_output_analysis/2.5_BBvsNOBB_O3_with_AURN) |
-| 2.6  |  CO simulations during wildfire periods (25–30 June 2018).   |   Figure 7   |         ne30x16          | [CO and vertical velocity](https://github.com/envdes/code_UK_MUSICA_Y2018/tree/main/2_simulation_output_analysis/2.6_evolution_wildfires_CO_PM2.5) |
+| 2.2  | PDF distributions and skewness of PM2.5 across four major cities (1 December 2017–November 2018). |   Figure 3   |      ne30x16, ne60       | [PDF and Sk (PM2.5)](https://github.com/envdes/code_UK_MUSICA_Y2018/tree/main/2_simulation_output_analysis/2.2_PDF_Sk_MUSICAv0vsAURN) |
+| 2.3  | MUSICAv0-AURN comparison during a late-spring pollution intrusion (22 May–14 June 2018). |   Figure 4   |      ne30x16, ne60       | [AURN vs MUSICAv0 (O3, PM2.5)](https://github.com/envdes/code_UK_MUSICA_Y2018/tree/main/2_simulation_output_analysis/2.3_intrusion_evaluation_with_AURN) |
+| 2.4  | PM2.5 and NSV simulations during peak pollution intrusion (27–30 May 2018). |   Figure 5   |      ne30x16, ne60       | [UKne30x16 vs ne60 (PM2.5, NSV)](https://github.com/envdes/code_UK_MUSICA_Y2018/tree/main/2_simulation_output_analysis/2.4_intrusion_evolution_NSV) |
+| 2.5  | Seasonal mean surface PM2.5 from UKne30×16 with and without biomass burning (Dec 2017–Nov 2018). |   Figure 6   | BB_ne30×16, NOBB_ne30×16 | [BB vs NoBB (PM2.5)](https://github.com/envdes/code_UK_MUSICA_Y2018/tree/main/2_simulation_output_analysis/2.5_BBvsNOBB_PM2.5_with_AURN) |
+| 2.6  | Seasonal mean surface O3 from UKne30×16 with and without biomass burning (Dec 2017–Nov 2018). |   Figure 7   | BB_ne30×16, NOBB_ne30×16 | [BB vs NoBB (O3)](https://github.com/envdes/code_UK_MUSICA_Y2018/tree/main/2_simulation_output_analysis/2.6_BBvsNOBB_O3_with_AURN) |
+| 2.7  |  CO simulations during wildfire periods (25–30 June 2018).   |   Figure 8   |         ne30x16          | [CO and vertical velocity](https://github.com/envdes/code_UK_MUSICA_Y2018/tree/main/2_simulation_output_analysis/2.7_evolution_wildfires_CO_PM2.5) |
 
 ### [3_supplementary_information](https://github.com/envdes/code_UK_MUSICA_Y2018/tree/main/3_supplimentary_information)
 
@@ -82,6 +83,6 @@ Two additional Python packages were used, as list below.
 - [Plot_2D.py](https://github.com/envdes/code_UK_MUSICA_Y2018/blob/main/5_functions_for_plotting/Plot_2D.py) was used for 2D spectral element map plotting.
 - [SE_analysis.py](https://github.com/envdes/code_UK_MUSICA_Y2018/blob/main/5_functions_for_plotting/SE_analysis.py) was used to obtain model grid indices with taking into account grid boundaries.
 
-## Acknowledgments
+### [6_MUSICAv0_output_dataset](https://github.com/envdes/code_UK_MUSICA_Y2018/tree/main/6_MUSICAv0_output_dataset)
 
-This work was supported by the Royal Society (grant numbers RG\R1\251567). This work used the ARCHER2 UK National Supercomputing Service (https://www.archer2.ac.uk). The authors would like to acknowledge the assistance given by Research IT, and the use of The HPC Pool funded by the Re search Lifecycle Programme at The University of Manchester. MVM acknowledges fundings from the United 14 Kingdom Research and Innovation (UKRI) Future Leaders Fellowship (grant numbers MR/T019867/1 and UKRI2059).
+This work was supported by the Royal Society (grant numbers RG\R1\251567) and the Natural Environment Research Council [Grant UKRI1294]. This work used the ARCHER2 UK National Supercomputing Service (https://www.archer2.ac.uk). The authors would like to acknowledge the assistance of Research IT and the use of the HPC Pool and Computational Shared Facility at The University of Manchester. MVM acknowledges fundings from the United Kingdom Research and Innovation (UKRI) Future Leaders Fellowship (grant numbers MR/T019867/1 and UKRI2059).
