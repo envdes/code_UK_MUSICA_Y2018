@@ -5,7 +5,7 @@
   - [1_se_grid_info](#1_se_grid_info)
   - [2_simulation_output_analysis](#2_simulation_output_analysis)
   - [3_supplementary_information](#3_supplementary_information)
-  - [4_observation_and_reanalysis](#4_observation_and_reanalysis)
+  - [4_configurations_and_evaluation_datasets](#4_configurations_and_evaluation_datasets)
   - [5_functions_for_plotting](#5_functions_for_plotting)
 - [Acknowledgements](#Acknowledgments)
 
@@ -67,14 +67,15 @@ The scripts listed below were used to generate supplementary information, includ
 | 3.13 | CO timeseries and MDA8 O3 fractional enhancements (24–30 May 2018) |      Figure S19      | BB_ne30×16, NOBB_ne30×16 | [CO and MDA8 O3](https://github.com/envdes/code_UK_MUSICA_Y2018/tree/main/3_supplimentary_information/3.13_heatmap_O3_wildfires) |
 | 3.14 |        PM2.5 fractional enhancements (24–30 May 2018)        |      Figure S17      | BB_ne30×16, NOBB_ne30×16 | [PM2.5 fractional enhancements](https://github.com/envdes/code_UK_MUSICA_Y2018/tree/main/3_supplimentary_information/3.14_heatmap_PM2.5_wildfires) |
 
-### [4_observation_and_reanalysis](https://github.com/envdes/code_UK_MUSICA_Y2018/tree/main/4_observation_and_reanalysis)
+### [4_configurations_and_evaluation_datasets](https://github.com/envdes/code_UK_MUSICA_Y2018/tree/main/4_configurations_and_evaluation_datasets)
 
-To evaluate the performance of MUSICAv0 over the new UK regional refinement domain, observations from the [Automatic Urban and Rural Network](https://uk-air.defra.gov.uk/networks/network-info?view=aurn) (AURN) and reanalysis data from the [UK Air Quality Reanalysis](https://air-quality-1-themetoffice.hub.arcgis.com/pages/explore-data) (UKAQR) are used.
+The model namelist, along with the corresponding CESM model tags (https://github.com/ESCOMP/CESM/tree/release-cesm2.2.0), is provided here. To evaluate the performance of MUSICAv0 over the new UK regional refinement domain, observations from the [Automatic Urban and Rural Network](https://uk-air.defra.gov.uk/networks/network-info?view=aurn) (AURN) and reanalysis data from the [UK Air Quality Reanalysis](https://air-quality-1-themetoffice.hub.arcgis.com/pages/explore-data) (UKAQR) are used.
 
-| Num  |                             Data                             |   Comments   |
-| :--: | :----------------------------------------------------------: | :----------: |
-| 4.1  | [AURN](https://github.com/envdes/code_UK_MUSICA_Y2018/tree/main/4_observation_and_reanalysis/4.1_AURN) | PM2.5 and O3 |
-| 4.2  | [UKAQR](https://github.com/envdes/code_UK_MUSICA_Y2018/tree/main/4_observation_and_reanalysis/4.2_UKAQR) | PM2.5 and O3 |
+| Num  |                             Data                             |       Comments        |
+| :--: | :----------------------------------------------------------: | :-------------------: |
+| 4.1  | [AURN](https://github.com/envdes/code_UK_MUSICA_Y2018/tree/main/4_observation_and_reanalysis/4.1_AURN) |     PM2.5 and O3      |
+| 4.2  | [UKAQR](https://github.com/envdes/code_UK_MUSICA_Y2018/tree/main/4_observation_and_reanalysis/4.2_UKAQR) |     PM2.5 and O3      |
+| 4.3  | [namelist](https://github.com/envdes/code_UK_MUSICA_Y2018/tree/main/4_observation_and_reanalysis/4.3_namelist) | CESM tag and namelist |
 
 ### [5_functions_for_plotting](https://github.com/envdes/code_UK_MUSICA_Y2018/tree/main/5_functions_for_plotting)
 
