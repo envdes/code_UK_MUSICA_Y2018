@@ -85,4 +85,8 @@ Two additional Python packages were used, as list below.
 
 ### [6_MUSICAv0_output_dataset](https://github.com/envdes/code_UK_MUSICA_Y2018/tree/main/6_MUSICAv0_output_dataset)
 
+The output data from MUSICAv0 were used to generate the figures presented in the manuscript and Supporting Information.
+
+### Acknowledgments
+
 This work was supported by the Royal Society (grant numbers RG\R1\251567) and the Natural Environment Research Council [Grant UKRI1294]. This work used the ARCHER2 UK National Supercomputing Service (https://www.archer2.ac.uk). The authors would like to acknowledge the assistance of Research IT and the use of the HPC Pool and Computational Shared Facility at The University of Manchester. MVM acknowledges fundings from the United Kingdom Research and Innovation (UKRI) Future Leaders Fellowship (grant numbers MR/T019867/1 and UKRI2059).
