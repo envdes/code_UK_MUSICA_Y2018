@@ -73,9 +73,9 @@ The model namelists, along with the corresponding CESM model tags (https://githu
 
 | Num  |                             Data                             |       Comments        |
 | :--: | :----------------------------------------------------------: | :-------------------: |
-| 4.1  | [AURN](https://github.com/envdes/code_UK_MUSICA_Y2018/tree/main/4_observation_and_reanalysis/4.1_AURN) |     PM2.5 and O3      |
-| 4.2  | [UKAQR](https://github.com/envdes/code_UK_MUSICA_Y2018/tree/main/4_observation_and_reanalysis/4.2_UKAQR) |     PM2.5 and O3      |
-| 4.3  | [namelist](https://github.com/envdes/code_UK_MUSICA_Y2018/tree/main/4_observation_and_reanalysis/4.3_namelist) | CESM tag and namelist |
+| 4.1  | [AURN](https://github.com/envdes/code_UK_MUSICA_Y2018/tree/main/4_configuration_and_evaluation_datasets/4.1_AURN) |     PM2.5 and O3      |
+| 4.2  | [UKAQR](https://github.com/envdes/code_UK_MUSICA_Y2018/tree/main/4_configuration_and_evaluation_datasets/4.2_UKAQR) |     PM2.5 and O3      |
+| 4.3  | [namelist](https://github.com/envdes/code_UK_MUSICA_Y2018/tree/main/4_configuration_and_evaluation_datasets/4.2_namelists) | CESM tag and namelist |
 
 ### [5_functions_for_plotting](https://github.com/envdes/code_UK_MUSICA_Y2018/tree/main/5_functions_for_plotting)
 
